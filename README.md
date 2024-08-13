@@ -5,6 +5,13 @@ The main purpose of this repository is to create resources needed for Machine Le
 Additionally, the [serverless framework](https://www.serverless.com/) is used to deploy various AWS Lambda functions, this can be
 found in [aws-automlops-serverless-deployment](https://github.com/kwame-mintah/aws-automlops-serverless-deployment).
 
+# Notice
+
+As mentioned in the introduction, the main purpose of this project is to get a better understanding of Machine Learning within AWS. Please note that some configuration might be deemed out of scope,
+for example configuring a NAT Gateway internet access for SageMaker has been skipped and instead direct internet access has been granted. If security configuration can be completed without taking too
+much time, it will be done. For AWS best practices for securing SageMaker please see this [article](https://aws.amazon.com/blogs/security/secure-deployment-of-amazon-sagemaker-resources/), also see
+best practices for loading testing SageMaker [article](https://aws.amazon.com/blogs/machine-learning/best-practices-for-load-testing-amazon-sagemaker-real-time-inference-endpoints/).
+
 ## Development
 
 ### Dependencies
